@@ -1,0 +1,23 @@
+{
+    "name": "VulnerableReactNativeApp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+      "react": "18.0.0",
+      "react-native": "0.70.0",
+      "axios": "0.21.1",
+      "react-navigation": "4.4.4",
+      "react-navigation-stack": "2.10.4",
+      "jsonwebtoken": "8.5.1"
+    },
+    "devDependencies": {
+      "@babel/core": "7.12.0",
+      "babel-preset-react-native": "4.0.1"
+    },
+    "scripts": {
+      "start": "react-native start",
+      "android": "react-native run-android",
+      "ios": "react-native run-ios"
+    }
+  }
+  
