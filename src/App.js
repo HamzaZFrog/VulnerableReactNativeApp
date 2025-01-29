@@ -9,7 +9,7 @@ const App = () => {
   const [password, setPassword] = useState('');
 
   // Vulnerability 1: Hardcoded Sensitive Data (Insecure Authentication)
-  const hardcodedApiUrl = 'https://vulnerable-api.com'; // Vulnerable API endpoint
+  const hardcodedApiUrl = 'http://vulnerable-api.com'; // Vulnerable API endpoint
 
   // Vulnerability 2: Improper Authentication (JWT Handling)
   const authenticateUser = async () => {
